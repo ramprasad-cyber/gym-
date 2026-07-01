@@ -9,7 +9,23 @@
   <body>
     <div class="container">
       <h1>Gym Management</h1>
-      <button>Click</button>
+      <p>Manage members and classes from a simple backend.</p>
+
+      <form id="member-form" class="card">
+        <h2>Add Member</h2>
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="plan" placeholder="Plan" required />
+        <button type="submit">Save Member</button>
+        <p id="status">Loading...</p>
+      </form>
+
+      <div class="card">
+        <h2>Members</h2>
+        <ul id="member-list"></ul>
+      </div>
     </div>
+
+    <script src="app.js"></script>
   </body>
 </html>

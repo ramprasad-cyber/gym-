@@ -1,0 +1,17 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Ava",
+      "email": "ava@example.com",
+      "plan": "Premium"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "Yoga",
+      "time": "06:00"
+    }
+  ]
+}
